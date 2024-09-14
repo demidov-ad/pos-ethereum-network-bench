@@ -1,5 +1,9 @@
-# PoS Ethereum-network Bench
-⛓️🌐 Deploy local PoS Ethereum network with benchmark tool 🌐⛓️
+<div align="center">
+
+# Deploy local PoS Ethereum network with benchmark tool 
+
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+</div>  
 
 ![alt text](image.png)
 

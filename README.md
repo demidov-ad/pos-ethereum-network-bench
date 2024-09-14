@@ -7,13 +7,16 @@
 
 ![alt text](image.png)
 
-This repository provides a docker-compose file to run a fully-functional, local development network for Ethereum with proof-of-stake enabled. This configuration uses Prysm as a consensus client and go-ethereum for execution. It starts from proof-of-stake and does not go through the Ethereum merge.
+This repository includes a Docker Compose file to run a fully-functional, local development network for Ethereum with proof-of-stake enabled. The setup uses Prysm as the consensus client and Go-Ethereum (geth) for execution. It begins directly with proof-of-stake, bypassing the Ethereum merge process.
 
-This sets up a single node development network with 64 deterministically-generated validator keys to drive the creation of blocks in an Ethereum proof-of-stake chain. Here's how it works:
+The configuration creates a single-node development network with 64 deterministically-generated validator keys to facilitate block creation on an Ethereum proof-of-stake chain. Here's how it works:
 
-We initialize a go-ethereum, proof-of-work development node from a genesis config. We initialize a Prysm beacon chain, proof-of-stake development node from a genesis config
+- A Go-Ethereum (geth) proof-of-work development node is initialized from a genesis config.
+- A Prysm beacon chain proof-of-stake development node is initialized from a genesis config.
 
-The development net is fully functional and allows for the deployment of smart contracts and all the features that also come with the Prysm consensus client such as its rich set of APIs for retrieving data from the blockchain.
+The development network is fully operational, supporting smart contract deployment and offering all the standard features of the Prysm consensus client, such as a rich set of APIs for blockchain data retrieval.
+
+In addition, the repository provides a network performance analysis tool. This tool helps in monitoring and analyzing the network’s latency, throughput, and overall performance.
 
 ## Using
 To run ETH network:
